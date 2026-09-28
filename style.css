@@ -1,0 +1,68 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: darkgray;
+    /*margin: 0;
+    padding: 30px;
+    
+
+    display: flex;
+    justify-content: center;
+    align-items: center;*/
+}
+
+.container {
+    max-width: 500px;
+    margin: 50px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.taskArea {
+    display: flex;
+    gap: 10px;
+}
+
+input {
+    flex: 1;
+    padding: 8px;
+}
+
+button {
+    padding: 8px 12px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: lightblue;
+    color: none;
+}
+
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+}
+
+
+li {
+    padding: 8px;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+
+.completed {
+    text-decoration: line-through;
+    opacity: 0.6;
+}
+
+li button {
+    background: none;
+    border: none;
+    color: red;
+    font-size: 16px;
+    font-weight: bold;
+}
